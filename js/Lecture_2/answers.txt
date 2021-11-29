@@ -1,0 +1,17 @@
+function makeSomeCoolStuff 
+1 a = 0
+2 b = 2
+3 c = undefined 
+
+if (true)
+4 a = 3
+5 b = 4
+6 c = 5
+
+7 a = 0
+8 b = 2
+9 c = 5
+
+10 a = 0
+11 b = 2
+12 c = undefined
