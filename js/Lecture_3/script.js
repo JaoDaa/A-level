@@ -51,32 +51,3 @@
 // }
 
 // console.log(`My name is ${Serhiy.name}`)
-
-let a = 1;
-let b = 2;
-const c = 8;
-
-function makeSomeCoolStaff() {
-    var c = 5;
-
-    console.log(a);
-    console.log(b);
-    console.log(c);
-
-    if (true) {
-        a = 3;
-        var b = 4;
-
-        console.log(a);
-        console.log(b);
-        console.log(c);
-    }
-
-    a = 7;
-
-    makeSomeCoolStaff();
-
-    console.log{a};
-    console.log(b);
-    console.log(c);
-}
