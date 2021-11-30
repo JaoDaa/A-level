@@ -41,13 +41,13 @@
 // console.log(`Cat name is ${cat.name}`)
 
 
-const Serhiy = {
-    name: 'Serhiy',
-    age: 44,
-    isStudent: true,
-    greeting: function(){
-        alert('Wow,Wow,Wow')
-    }
-}
+// const Serhiy = {
+//     name: 'Serhiy',
+//     age: 44,
+//     isStudent: true,
+//     greeting: function(){
+//         alert('Wow,Wow,Wow')
+//     }
+// }
 
-console.log(`My name is ${Serhiy.name}`)
+// console.log(`My name is ${Serhiy.name}`)
