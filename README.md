@@ -16,4 +16,15 @@ Data types:
 - #undefined - for unassigned or undefined values.
 - #symbol - unique and immutable primitive values.
 #object - more complex data structure
-# With operator typeof we can check a type.
+# With operator typeof we can check a type
+
+[link name](google.com)
+
+let a = 5;
+
+a = a + 10
+
+console.log(a)
+
+
+
