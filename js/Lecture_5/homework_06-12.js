@@ -20,7 +20,7 @@ const b = 5;
         // b = 8; дало помилку на весь файл - чому?
 
         console.log(a); a = 7
-        console.log(b); b = 7
+        console.log(b); b = 8
         console.log(c); c = 6
     }
     console.log(a); a = 2
