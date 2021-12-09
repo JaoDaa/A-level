@@ -1,0 +1,15 @@
+let a = 5;
+
+function do Smth() {
+    a++
+}
+
+doSmth();
+doSmth();
+
+if (true) {
+    let a = 10;
+    doSmth();
+    console.log(a)
+    )
+}
