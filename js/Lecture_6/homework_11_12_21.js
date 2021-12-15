@@ -1,20 +1,29 @@
 // Задание_1
 // function getMinValue(value1, value2) {
-//     let result = value2;
-//     return result;
+//   if (value1 < value2) {
+//     return value1;
+//   } else {
+//     return value2;
+//   }
 // }
-// console.log(getMinValue(8, 2));
+// console.log(getMinValue);
+
 
 // Задание_2
 
-// function joinObjects(obj1, obj2) {
-//     let result = {
-//         name: 'Joe', 
-//         age: 25,
-//     }
-//     return result;
-// };
-// console.log(joinObjects({name: 'Joe'}, {age: 25}));
+// const person1 = {
+//     name: 'Joe',
+//     age: 25,
+// }
+
+// const person2 = {
+//     surname: 'Anna',
+//     years: 18,
+// }
+
+// let merged = {...person1, ...person2};
+// console.log(merged);
+//{name: 'Joe', age: 25, surname: 'Anna', years: 18}
 
 // Задание_3
 

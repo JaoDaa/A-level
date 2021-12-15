@@ -19,15 +19,15 @@
 // console.log(str3);
 
 
-//const catName = 'Grey';
-//const catAge = 3;
-//const isCatMale = true;
+const catName = 'Grey';
+const catAge = 3;
+const isCatMale = true;
 
-//function catSay () {
-//    alert('Meowwwwww');
-//}
+function catSay () {
+   alert('Meowwwwww');
+}
 
-//console.log(`Cat name is ${catName}, it's ${catAge}`);
+console.log(`Cat name is ${catName}, it's ${catAge}`);
 
 // const cat = {
 //     name: 'Grey',
