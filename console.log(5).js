@@ -4,7 +4,6 @@
 
 // console.log(a);
 
-
 // const b = 5
 // const c = '5'
 
@@ -26,12 +25,11 @@
 
 // console.log(String([1, 3, 5, 7]))
 
-
 // function doSmth() {
-//     let a = 5;
-//     const b = 10;
-//     a++;
-//     return a
+//   let a = 5;
+//   const b = 10;
+//   a++;
+//   return a;
 // }
 
 
@@ -44,4 +42,3 @@
 // const b = {};
 
 // console.log(a + b);
-
