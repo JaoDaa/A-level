@@ -188,13 +188,13 @@
 // const students = arr.filter((element) => element.isStudent); // shows filtered data
 
 // Сумма элементов
-const arr = [1, 2, 3];
+// const arr = [1, 2, 3];
 
-// const sum = arr[0] + arr[1] + arr[2];
+// // const sum = arr[0] + arr[1] + arr[2];
 
-let sum = 0;
+// let sum = 0;
 
-arr.forEach((el) => (sum += el));
-console.log(sum);
+// arr.forEach((el) => (sum += el));
+// console.log(sum);
 
 //const sumWithReduce = разобраться!!!!
