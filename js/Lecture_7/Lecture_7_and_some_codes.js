@@ -113,7 +113,7 @@
 // LOOPS
 
 // while (condition) {
-    // repeat some code
+//     repeat some code
 // }
 
 // let count = 5;

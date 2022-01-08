@@ -1,28 +1,28 @@
-// const car = {
-//     mark: 'Audi',
-//     model: 'S8',
-//     year: 2020,
-//     isNew: true,
-//     color: 'black',
+const car = {
+    mark: 'Audi',
+    model: 'S8',
+    year: 2020,
+    isNew: true,
+    color: 'black',
 
-//     getShortInformation () {
-//         return `${this.mark}, ${this.model}, ${this.year}, ${this.color}`;
-//     }
-// };
-// console.log(car.getShortInformation());
+    getShortInformation () {
+        return `${this.mark}, ${this.model}, ${this.year}, ${this.color}`;
+    }
+};
+console.log(car.getShortInformation());
 
-// let objectPropertyName = 'model';
+let objectPropertyName = 'model';
 
-// console.log(car[objectPropertyName]);
+console.log(car[objectPropertyName]);
 
-// const obj = {
-//     'property with space': 'test'
-// };
-// console.log(obj['property with space']);
+const obj = {
+    'property with space': 'test'
+};
+console.log(obj['property with space']);
 
-// console.log(car.model);
-// car.model = 'A8';
-// console.log(car.model);
+console.log(car.model);
+car.model = 'A8';
+console.log(car.model);
 
 // 2
 // let obj1 = {
@@ -31,7 +31,7 @@
 // };
 // let obj2 = obj1;
 // obj2.value2 =3;
-// // console.log(ob1 == obj2);
+// console.log(ob1 == obj2);
 // console.log(obj2);
 
 // let obj2 = { ... obj1};
@@ -89,6 +89,7 @@
 // });
 
 // console.log(obj);
+
 
 // let obj = {mark: 'Mercedes', model: 'C180', year: 2021};
 // Object.defineProperty(obj, 'mark', {enumerable: false});
