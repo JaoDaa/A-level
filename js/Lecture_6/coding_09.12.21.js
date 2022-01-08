@@ -1,28 +1,28 @@
-const car = {
-    mark: 'Audi',
-    model: 'S8',
-    year: 2020,
-    isNew: true,
-    color: 'black',
+// const car = {
+//     mark: 'Audi',
+//     model: 'S8',
+//     year: 2020,
+//     isNew: true,
+//     color: 'black',
 
-    getShortInformation () {
-        return `${this.mark}, ${this.model}, ${this.year}, ${this.color}`;
-    }
-};
-console.log(car.getShortInformation());
+//     getShortInformation () {
+//         return `${this.mark}, ${this.model}, ${this.year}, ${this.color}`;
+//     }
+// };
+// console.log(car.getShortInformation());
 
-let objectPropertyName = 'model';
+// let objectPropertyName = 'model';
 
-console.log(car[objectPropertyName]);
+// console.log(car[objectPropertyName]);
 
-const obj = {
-    'property with space': 'test'
-};
-console.log(obj['property with space']);
+// const obj = {
+//     'property with space': 'test'
+// };
+// console.log(obj['property with space']);
 
-console.log(car.model);
-car.model = 'A8';
-console.log(car.model);
+// console.log(car.model);
+// car.model = 'A8';
+// console.log(car.model);
 
 // 2
 // let obj1 = {
@@ -54,7 +54,7 @@ console.log(car.model);
 //     console.log(property);
 // }
 
-// 4
+// // // 4
 // let obj = {};
 
 // Object.defineProperty(obj, 'capital', {
@@ -63,17 +63,17 @@ console.log(car.model);
 // console.log(obj.capital);
 
 // 5
-// let obj = {
-//     country: 'France',
-//     capital: 'Paris'
-// };
+let obj = {
+    country: 'France',
+    capital: 'Paris'
+};
 
-// Object.defineProperty(obj, 'description', {
-//     get: function () {
-//         return `${this.capital} is a capital of ${this.country}`;
-//     }
-// });
-// console.log(obj.description);
+Object.defineProperty(obj, 'description', {
+    get: function () {
+        return `${this.capital} is a capital of ${this.country}`;
+    }
+});
+console.log(obj.description);
 
 // let obj1 = {name: 'Tim'};
 

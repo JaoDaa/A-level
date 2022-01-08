@@ -1,12 +1,16 @@
 // Задание_1
+
+// let value1 = 8;
+// let value2 = 2;
+
 // function getMinValue(value1, value2) {
-//   if (value1 < value2) {
+// if (value1 < value2) {
 //     return value1;
-//   } else {
+// } else {
 //     return value2;
-//   }
 // }
-// console.log(getMinValue);
+// };
+// console.log(getMinValue(8, 2));
 
 
 // Задание_2
