@@ -6,13 +6,13 @@
 // console.log(countVowels('participation')); 
 
 // Task2
-function createArraysWithObjects(name1, name2) {
-    const name1 = {name:'Joe', id: '1'},
-    const name2 = {name:'Anna', id: '2'},
-    const name3 = name1.concat(name2),
-};
+// const createArrowWithObjects = (name1, name2) => {
+//     console.log('name: ', Joe);
+//     console.log('name: ', Anna);
+// }
+// createArrowWithObjects(Joe, Anna);
 
-console.log(createArraysWithObjects);
+
 
 
 
@@ -32,3 +32,7 @@ console.log(createArraysWithObjects);
 // let arrowFunc = a => {return a * 2};
 // console.log(arrowFunc(8));
 
+// const numbers = [1, 2, 3, 4,5]
+
+// const newArr = numbers.map(element => element * 2);
+// console.log(newArr);
