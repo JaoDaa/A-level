@@ -96,7 +96,7 @@
 //         break;
 //     case 2:
 //     console.log('bad');
-    // default - if nothing works...
+//     default - if nothing works...
 // }
 
 // Тернарный оператор - единственный оператор с тремя составляющими - условие и два значения
