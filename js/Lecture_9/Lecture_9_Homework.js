@@ -51,6 +51,11 @@ const countriesData = {
     Hamburg: 'Germany'
 };
     
+arr = Object.entries(countriesData)
+        .reduce((acc, [key,value]) => ((acc[value] ??=[]).push(key), acc),{});
+
+console.log(arr)
+
 const results = {};
 Object.entries(countriesData).forEach(([key, value]) => {
     if (results[value]) {

@@ -135,15 +135,15 @@
 
 // для объектов
 
-const months = {
-    1: 'January',
-    2: 'February',
-    12: 'December',
-};
+// const months = {
+//     1: 'January',
+//     2: 'February',
+//     12: 'December',
+// };
 
-for(let month in months){
-    console.log('Month name: ' + months[month]);
-}
+// for(let month in months){
+//     console.log('Month name: ' + months[month]);
+// }
 //result: January, February, December
 
 // Объяснение домашки 1 задания
