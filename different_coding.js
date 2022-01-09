@@ -42,3 +42,18 @@
 // const b = {};
 
 // console.log(a + b);
+
+
+// const arr = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// };
+// Соптимизировано для возможности выбора 1 значения 
+// for (let i = 0, len = arr.length; i < len; i++) {
+//     console.log(arr[i]);
+// };
+
+// то же самое через forEach
+// arr.forEach((el) => console.log(el));
+
