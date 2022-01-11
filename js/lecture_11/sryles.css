@@ -9,14 +9,14 @@ body {
 .wrapper {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   background-color: #eee;
+  width: 100%;
   padding: 20px 40px;
 }
 
 .nav {
-  width: 300px;
   background-color: deepskyblue;
+  width: 300px;
   height: 100vh;
 }
 
