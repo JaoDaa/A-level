@@ -57,3 +57,14 @@
 // то же самое через forEach
 // arr.forEach((el) => console.log(el));
 
+var elements = [
+    'Hydrogen',
+    'Helium',
+    'Lithium',
+    'Beryllium'
+  ];
+  
+  elements.map(function(element) {
+    return element.length;
+  });
+  console.log(elements);
