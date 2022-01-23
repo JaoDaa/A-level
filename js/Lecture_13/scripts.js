@@ -359,3 +359,7 @@ document.forms.filtersForm.addEventListener("submit", (e) => {
 
 // дальше функция которая будет фильтровать наш контент
 // у нее две задачи - принимать массив (будем делать выше - перед addEventListener) и получить фильтры
+
+// Другой способ вытащить данные и значения
+// e.target.name.value
+// e.target.group.value
