@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Avengers vs. Galaxy</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="filtering">
+    <form class="filters">
+        <input id="filter-list" placeholder="name">
+    </form>
+    <br>
+    <form>
+            <input type="radio" id="avengers_id" name="avengers_name" value="Avengers">
+            <label for="avengers_id">Avengers</label>
+            <input type="radio" id="galaxy_id" name="galaxy_name" value="Galaxy">
+            <label for="galaxy_id">Galaxy</label>
+    </form>
+    <br>
+    <button type="submit">Save</button>
+    <br>
+    <button type="reset">Reset</button>
+</div>
+    <div id="content" class="content">
+        <div class="hero_card"></div>
+    </div>
+    <script src="./logics.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+.filtering {
+  display: flex;
+  flex-direction: column;
+  background-color: tomato;
+  width: 460px;
+  height: 50vh;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.content {
+  background-color: blueviolet;
+  width: 900px;
+  height: 100vh;
+  margin-top: 20px;
+}
