@@ -314,6 +314,7 @@ const generateContent = (array) => {
 
   // У нас есть дата, теперь нам ее нужно вставить в наш Контент
 
+  if (!data) data = 'No Data'; // если не правильно введено
   content.innerHTML = data;
 };
 // мы в наш контент с помощью innerhtml вставим то что мы нагенерировали
