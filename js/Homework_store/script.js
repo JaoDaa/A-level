@@ -1290,3 +1290,12 @@ for (i = 0; i < acc.length; i++) {
     }
     });
 };
+
+const createCardContent = (object) => {
+    const { headline, image } = object;
+    const card = `<div class="card">
+        <img class="card__img" src="${image.filename}" alt="${image.alt}">
+        <p class="card__title">${headline}</p>
+        </div>`;
+    return card;
+};
