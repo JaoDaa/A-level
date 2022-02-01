@@ -1292,10 +1292,62 @@ for (i = 0; i < acc.length; i++) {
 };
 
 const createCardContent = (object) => {
-    const { headline, image } = object;
+    const { id, category, imgUrl, name, display, color, price } = object;
     const card = `<div class="card">
-        <img class="card__img" src="${image.filename}" alt="${image.alt}">
-        <p class="card__title">${headline}</p>
+        <img class="card__img" src="${imgUrl}">
+        <p class="card__id">${id}</p>
+        <p class="category">${category}</p>
+        <p class="category">${name}</p>
+        <p class="category">${display}</p>
+        <p class="category">${color}</p>
+        <p class="category">${price}</p>
         </div>`;
     return card;
 };
+
+const generateContent = (array) => {
+    const content = document.querySelector("#content");
+
+    content.innerHTML = "";
+
+    let data = "";
+
+    array.forEach((element) => {
+    data += createCardContent(element);
+    });
+
+    if (!data) data = 'No Data';
+    content.innerHTML = data;
+};
+
+const filterData = (data, filter) => {
+    const { name, group } = filter;
+    return data.filter((item) => {
+    let result = true;
+    if (name) {
+        if (item.headline.toLowerCase().indexOf(name.toLowerCase()) === -1) {
+        result = false;
+        }
+    }
+    if (group) {
+        if (item.group_type !== group) {
+        result = false;
+        }
+    }
+    return result;
+    });
+};
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     document.getElementById("loading").hidden = "true";
+//     generateContent(items);
+// });
+
+document.forms.filtersForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+const formData = new FormData(e.target);
+const formProps = Object.fromEntries(formData);
+
+const filteredData = filterData(items, formProps);
+generateContent(filteredData);
+});
