@@ -26,5 +26,4 @@ a = a + 10
 
 console.log(a)
 
-
-
+TODO: Please add info about other lectures =)
