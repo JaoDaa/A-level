@@ -30,3 +30,5 @@
 // console.log(a); a = 2
 // console.log(b); undefined
 // console.log(c); c = 4
+
+// this is all should be for lecture_4
